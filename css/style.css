@@ -1,0 +1,96 @@
+body{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+#container {
+    margin: auto;
+    display: block;
+    width: 500px;
+    margin-top: 280px;
+    margin-left: 500px;
+}
+hr {
+    width: 200px;
+    border: 3px solid;
+    margin-left: 0px;
+    margin-top: -14px;
+}
+h1.joinChat {
+    color: black;
+    size: a1;
+}
+#btn {
+    text-emphasis-color: white;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+}
+#screen_chat1
+{
+    display: none;
+}
+#screen_chat
+{
+    border:black solid 2px;
+    width:900px;
+    height:600px;
+    overflow-y: auto;
+    margin:auto;
+    border-radius: 10px;
+}
+.chatroom {
+    background: black;
+    height: 30px;
+    margin-top: -20px;
+}
+.btn {
+    float: right;
+    margin-top: -45px;
+}
+
+h2{
+    background-color: lightblue;
+}
+.massage{
+    display:block;
+    margin:auto;
+    border:black solid 2px;
+    border-radius: 6px;
+    max-width: 24%;
+    margin-top:10px;
+    margin-right:10px;
+    margin-left:10px;
+}
+.joined_massage{
+    display: block;
+    margin:auto;
+    max-width:70%;
+    text-align:center;
+    clear:both;
+    margin-top: 10px;
+    float:inline;
+    background-color: grey;
+}
+.left{
+    float:left;
+    clear: both;
+}
+.right{
+    float:right;
+    clear:both;
+}
+form#form {
+    text-align: center;
+}
+.text_massage {
+    margin: auto;
+    display: block;
+    width: 880px;
+    margin-top: 10px;
+}
+button.send_btn {
+    background: green;
+}
+input#input {
+    width: 800px;
+    border-radius: 6px;
+}
